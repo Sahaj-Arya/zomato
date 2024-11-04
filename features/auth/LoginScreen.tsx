@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-const explore = () => {
+const LoginScreen: React.FC = () => {
   return (
     <View>
-      <Text>explore</Text>
+      <Text>LoginScreen</Text>
     </View>
   );
 };
 
-export default explore;
+export default LoginScreen;
 
 const styles = StyleSheet.create({});
